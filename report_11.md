@@ -20,15 +20,15 @@ MVC đại diện cho **M**odel, **V**iew, **C**ontroller
 
 Đối với kiến trúc này, mỗi thành phần sẽ có một nhiệm vụ nhất định, hãy cùng tìm hiểu sâu hơn nhé.
 
-##Model
+## Model
 
 Model trong Rails đóng vai trò là cầu nối giữa Object và Database, ngoài ra còn kiêm các nhiệm vụ xử lý validation, association và các transaction. Có nghĩa là, model sẽ có mối quan hệ chặt chẽ với cơ sở dữ liệu, mỗi model có thể đại diện cho một bảng trong cơ sở dữ liệu. Đối tượng model sẽ có khả năng, lấy, chỉnh sửa, cũng như xóa dữ liệu trong bảng. Các đối tượng model như là một trung gian giữa ứng dụng và cơ sở dữ liệu của chúng ta.
 
-##View
+## View
 
 View dùng để thể hiện kết quá trả về, nó có thể được thể hiện theo nhiều loại dữ liệu như PDF, HTML, JSON, etc. Kết quả cuối cùng của một view sẽ là giao diện người dùng (UI), một phần của 'Client'. Hầu hết các trang web hiện nay đều có giao diện là các file được viết theo HTML và trang trí cũng như sắp xếp bằng CSS và JS.
 
-##Controller
+## Controller
 
 Cuối cùng nhưng không kém phần quan trọng, đó là Controller, nó có nhiệm vụ xử lý flow của ứng dụng, thường sẽ là sử dụng các models để tra cứu và xuất dữ liệu, hay đưa ra các quyết định trả data về cho View.
 
@@ -36,7 +36,7 @@ Cuối cùng nhưng không kém phần quan trọng, đó là Controller, nó c�
 
 *Trên đây là mô hình hoạt động của Rails*
 
-#MVC và Routes trong một ứng dụng Rails
+# MVC và Routes trong một ứng dụng Rails
 
 Hình dung chúng ta đang làm việc với một ứng dụng web có chức năng hiển thị những bài viết về các món ăn trên thế giới. Ở vị thế của một người mê ăn uống. Chúng ta sẽ truy cập tới trang web 'www.foodtheworld.com/posts' và thấy một trang web siều đẹp cùng với đó là một list các bài đăng tuyệt vời về thức ăn khắp nơi trên thế giới.
 
