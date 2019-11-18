@@ -67,6 +67,7 @@ Người dùng tương tác với UI (gửi yêu cầu tới máy chủ), ứng 
 Trên đây là những điều cơ bản cần biết về cấu trúc và cách hoạt đồng của một trang web với Ruby on Rails.
 
 ##Link tham khảo:
+
 https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning#sec-introduction
 
 https://guides.rubyonrails.org/getting_started.html
