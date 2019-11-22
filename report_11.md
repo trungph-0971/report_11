@@ -54,7 +54,7 @@ Chúng ta có thể thấy các phương thức `GET`, `POST`, `PUT`, hay `DELET
 
 Trong **controller** PostsController chúng ta sử dụng **model** `Post` để lấy tất cả các bài đăng trong cở sở dữ liệu và render vào file **view** `index.html.erb`, là một file HTML nhưng có nhúng thêm, ngôn ngữ Ruby, trả nó về cho người dùng.
 
-`class ArticlesController < ApplicationController`
+`class PostsController < ApplicationController`
   ```
   def index
     @posts = Posts.all
