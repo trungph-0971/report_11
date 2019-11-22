@@ -42,7 +42,7 @@ Hình dung chúng ta đang làm việc với một ứng dụng web có chức n
 
 Khi chúng ta gõ URL và nhấn Enter trên trình duyệt, nó gửi một request tới máy chủ. Trên máy chủ, chúng ta có một ứng dụng Rails và Rails Router sẽ có nhiệm vụ kiểm chứng có URL trùng với URL của người dùng gửi lên không. Chúng ta chỉ cần thêm dòng này vào file routes.rb
 
-`resources :articles`
+`resources :posts`
 
 Nó sẽ tạo ra các đường dẫn RESTful cho các bài đăng. Nếu chạy dòng lệnh `rails routes`, nó sẽ hiển thị ra một loạt các đường dẫn đã được tạo
 
@@ -57,7 +57,7 @@ Trong **controller** PostsController chúng ta sử dụng **model** `Post` đ�
 `class ArticlesController < ApplicationController`
   ```
   def index
-    @articles = Article.all
+    @posts = Posts.all
   end
 end
 ``` 
